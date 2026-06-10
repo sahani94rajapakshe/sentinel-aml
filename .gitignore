@@ -1,0 +1,49 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## EF Core
+**/Migrations/
+
+## User-specific
+appsettings.*.local.json
+*.env
+.env
+
+## Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## OS
+.DS_Store
+Thumbs.db
