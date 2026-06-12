@@ -21,6 +21,11 @@ public class Account : BaseEntity
     {
     }
 
+    public static Account Create(Guid customerId, string accountNumber, decimal initialBalance = 0m)
+    {
+        return new Account(customerId, accountNumber, initialBalance);
+    }
+
     internal Account(Guid customerId, string accountNumber, decimal initialBalance)
     {
         if (customerId == Guid.Empty)
