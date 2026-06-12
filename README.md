@@ -35,15 +35,11 @@ The platform combines transaction monitoring, fraud risk scoring, investigation 
 
 ### Completed
 
-* Clean Architecture Setup
+* Customer Management (CQRS)
+* Account Management (CQRS)
 * PostgreSQL Integration
 * Entity Framework Core
-* Domain Entities
-* Initial Database Schema
-
-### In Progress
-
-* Customer Management Module
+* Clean Architecture
 
 ## Roadmap
 
